@@ -70,7 +70,7 @@ def generateGrayFeatures(imshape=(200,300, 3), nbImg=0, verbose=False, rs=42):
 
     # Create empty numpy arays for features and labels
     features = np.empty((nbImages, imsize), dtype=np.float32)
-    labels = np.empty((nbImages), dtype=np.int)
+    labels = np.empty((nbImages), dtype=np.int32)
 
     # Generate grayscale images
     counter = 0
